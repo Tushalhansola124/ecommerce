@@ -1,0 +1,128 @@
+.loginsingup {
+  width: 100%;
+  min-height: 10vh;
+  background: linear-gradient(180deg, #47fdae, #e1ffea 60%);
+  padding-top: 100px;
+}
+
+.loginsingup-contanier {
+  width: 550px;
+  max-width: 90%;
+  height: auto;
+
+  background: white;
+  margin: auto;
+  padding: 40px 30px;
+  border-radius: 2vw;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.loginsingup-contanier h1 {
+  margin: 20px 0px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.loginsingup-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.loginsingup-fields input {
+  height: 60px;
+  width: 100%;
+  padding-left: 20px;
+  border: 1px solid #c9c9c9;
+  outline: none;
+  color: #5c5c5c;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.loginsingup-login {
+  margin-top: 20px;
+  color: #5c5c5c;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.loginsingup-login span {
+  color: #ff4141;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.loginsingup-agree {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  gap: 10px;
+  color: #5c5c5c;
+  font-size: 16px;
+  font-weight: 500;
+  flex-wrap: wrap;
+}
+
+.loginsingup-contanier button {
+  width: 100%;
+  height: 50px;
+  color: white;
+  background-color: #ff4141;
+  margin-top: 30px;
+  border: none;
+  font-size: 22px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+/* --------- Responsive Media Queries --------- */
+
+/* Tablets */
+@media (max-width: 768px) {
+  .loginsingup-contanier {
+    padding: 30px 20px;
+  }
+
+  .loginsingup-fields input {
+    height: 55px;
+    font-size: 15px;
+  }
+
+  .loginsingup-contanier button {
+    font-size: 20px;
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 480px) {
+  .loginsingup {
+    padding-top: 60px;
+  }
+
+  .loginsingup-contanier h1 {
+    font-size: 1.5rem;
+  }
+
+  .loginsingup-agree {
+    font-size: 14px;
+    gap: 8px;
+  }
+
+  .loginsingup-fields input {
+    height: 50px;
+    font-size: 14px;
+  }
+
+  .loginsingup-login {
+    font-size: 14px;
+  }
+
+  .loginsingup-contanier button {
+    font-size: 18px;
+    height: 45px;
+  }
+}
