@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { ShopContext } from '../context/ShopContext'
 import { useParams } from 'react-router-dom';
-import Bredcums from '../components/Bredcums/BredCums.jsx'
+import Bredcums from '../components/Bredcums/Bredcums.jsx'
 import ProductDisplay from '../components/ProductDisplay/ProductDisplay.jsx';
 
 const Product = () => {
