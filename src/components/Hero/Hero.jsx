@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Hero.css";
+import "./Hero.css"
 import hand_icon from '../../assets/hand-icon.png';
 import arrow_icon from '../../assets/arrow-icon.png';
 import men from '../../assets/mens-img.png'
